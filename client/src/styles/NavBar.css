@@ -1,0 +1,23 @@
+
+.navbar-sign-in-btn {
+    border: 1px solid black;
+    color: black;
+    border-radius: 0;
+    width: 113.12px;
+    height: 39.37px;
+    font-family: 'Switzer', sans-serif;
+    font-weight: bolder;
+    
+    background: rgb(188, 188, 188);
+    background: -moz-linear-gradient(84deg, rgba(188, 188, 188, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: -webkit-linear-gradient(84deg, rgba(188, 188, 188, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(84deg, rgba(188, 188, 188, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#bcbcbc", endColorstr="#ffffff", GradientType=1);
+}
+
+.navbar-text-color-white{
+    color: rgba(242, 242, 242, 0.75);
+}
+.navbar-text-color-white:hover{
+    color: #868484;
+}
