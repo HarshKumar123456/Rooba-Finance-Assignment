@@ -7,7 +7,7 @@ import "../styles/NavBar.css";
 
 const NavBar = () => {
     return <>
-        <div className="container pt-4">
+        <div className="container pt-4 navbar-background-black">
 
             <header className="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
                 <a

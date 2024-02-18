@@ -1,0 +1,38 @@
+.hero-banner-video {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    height: min-content;
+}
+
+.hero-banner{
+    padding-top: 14rem;
+}
+
+.hero-text-box{
+    color: white;
+    text-align: center;
+    font-weight: 100;
+    line-height: 4rem;
+    position: relative;
+    z-index: 2;
+}
+
+
+.hero-heading{
+    font-size: 4rem;
+}
+
+.hero-heading-bold-italic{
+    font-weight: 400;
+    font-style: italic;
+}
+
+.hero-text{
+    font-family: 'Switzer', sans-serif;
+    line-height: 1.4rem;
+}
+
+.hero-text-underline{
+    text-decoration: underline;
+}
