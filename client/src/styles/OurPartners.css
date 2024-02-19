@@ -1,0 +1,18 @@
+.our-partners-container-logo-container{
+    height: 5.6rem;
+}
+
+.our-partners-container-heading {
+    font-size: 2rem;
+}
+
+.our-partners-container-logo-container>.forward-button-image {
+    height: 50px;
+    margin: auto;
+}
+
+.our-partners-container-logo-container > .image-with-white-gradient > .white-gradient-image{
+    position: relative;
+    top: -94px;
+    left: 60px;
+}

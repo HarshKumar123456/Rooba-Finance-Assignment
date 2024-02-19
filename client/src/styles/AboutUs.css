@@ -1,0 +1,12 @@
+.about-us-container-heading-container{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5rem;
+    letter-spacing: -2%;
+    line-height: 2.6rem;
+    width: fit-content;
+    margin: auto;
+}
+
+.about-us-container-heading-container-heading-2{
+    padding-left: 6.5rem;
+}
