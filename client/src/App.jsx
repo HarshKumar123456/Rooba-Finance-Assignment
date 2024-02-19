@@ -5,6 +5,7 @@ import Hero from './components/Hero';
 import "../src/styles/App.css";
 import Discover from './components/Discover';
 import WhyYouNeed from './components/WhyYouNeed';
+import HowToInvest from './components/HowToInvest';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <Discover />
       <WhyYouNeed />
+      <HowToInvest />
       <h1 className="dim-white-text">This is App.</h1>
     </>
   )
