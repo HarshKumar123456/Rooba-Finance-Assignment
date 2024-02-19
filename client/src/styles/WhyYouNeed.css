@@ -1,0 +1,23 @@
+.why-you-need-container{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.why-you-need-container-heading{
+    width: 41rem;
+    line-height: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+
+.why-you-need-container-heading-1{
+    font-size: 3rem;
+}
+.why-you-need-container-heading-2{
+    font-size: 3rem;
+    padding: 0px 0px 0px 188px;
+}
+
+.why-you-need-container-reason-cards{
+    width: 56%;
+    gap: 7px;
+}
