@@ -1,3 +1,23 @@
 body{
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgb(17 17 17);;
+}
+
+.dim-white-text{
+    color: rgba(242, 242, 242, 0.75);
+}
+
+.list-style-none{
+    list-style: none;
+}
+
+.switzer-font{
+    font-family: 'Switzer', sans-serif;
+}
+
+.display-block{
+    display: block;
+}
+
+.dark-background{
+    background-color: rgba(25, 24, 25, 1);
 }

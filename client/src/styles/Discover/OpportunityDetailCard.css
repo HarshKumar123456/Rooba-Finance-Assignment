@@ -1,0 +1,84 @@
+.opportunity-detail-card {
+    border: 1px solid #989698;
+    border-radius: 2.5px;
+}
+
+.opportunity-detail-card-image-container {
+    color: rgba(255, 255, 255, 1);
+    height: 200px;
+    background: no-repeat;
+
+}
+
+.opportunity-detail-card-name {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.opportunity-detail-card-location>img {
+    height: 0.9rem;
+    margin-right: 0.5rem;
+    position: relative;
+    top: -2px;
+}
+
+.opportunity-detail-card-details{
+    background: rgba(242, 242, 242, 1);
+    color: rgba(0, 0, 0, 0.2);
+}
+
+.opportunity-detail-card-tags-container-tags{
+    text-wrap: nowrap;
+}
+
+.opportunity-detail-card-tags-container-tag-plot-type>img{
+    position: relative;
+    top: -1px;
+}
+
+.opportunity-detail-card-tags-container-tag-plot-type{
+    background: rgba(18, 18, 18, 0.1);
+    height: 30px;
+    border-radius: 4px;
+    line-height: 14px;
+    color: rgba(18, 18, 18, 1);
+}
+
+.opportunity-detail-card-tags-container-tag-plot-dimensions{
+    background: rgba(18, 18, 18, 0.1);
+    height: 30px;
+    border-radius: 4px;
+    line-height: 14px;
+    color: rgba(18, 18, 18, 1);
+}
+
+.opportunity-detail-card-tags-container-tag-plot-ownership{
+    border: 1px solid rgba(70, 78, 199, 1);
+    background: rgba(15, 22, 64, 1);
+    height: 30px;
+    border-radius: 4px;
+    line-height: 14px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.opportunity-detail-card-other-tags-container-tags > *{
+    border-radius: 2.5px;
+}
+
+.opportunity-detail-card-price-container-prices{
+    color: rgba(18, 18, 18, 1);
+}
+
+.opportunity-detail-card-price-container-prices:last-child > :last-child{
+    background-color: #e1e6f3;
+    border-color: rgba(70, 78, 199, 1) !important;
+}
+
+.opportunity-detail-card-price-container-price-box:hover{
+    background-color: #e1e6f3;
+    border-color: rgba(70, 78, 199, 1) !important;
+}
+
+.opportunity-detail-card-button-container > button{
+    border-radius: 0px;
+}

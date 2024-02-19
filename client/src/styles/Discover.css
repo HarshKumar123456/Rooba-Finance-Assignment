@@ -1,0 +1,15 @@
+.discover{
+    padding-top: 4rem;
+}
+
+
+.discover-heading{
+    font-size: 2.25rem;
+    line-height: 2.25rem;
+    font-weight: 200;
+}
+
+.discover-heading-bold-text{
+    color: white;
+    font-weight: 500;
+}

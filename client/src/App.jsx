@@ -3,6 +3,8 @@ import NavBar from './components/NavBar';
 import Hero from './components/Hero';
 
 import "../src/styles/App.css";
+import Discover from './components/Discover';
+
 
 function App() {
 
@@ -10,7 +12,8 @@ function App() {
     <>
       <NavBar />
       <Hero />
-      <h1>This is App.</h1>
+      <Discover />
+      <h1 className="dim-white-text">This is App.</h1>
     </>
   )
 }

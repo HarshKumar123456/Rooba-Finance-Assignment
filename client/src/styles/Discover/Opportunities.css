@@ -1,0 +1,23 @@
+.opportunity-item.selected{
+    color: rgba(67, 117, 251, 1);
+    border-bottom: 4px solid rgba(67, 117, 251, 1);
+}
+
+.opportunity-item{
+    cursor: pointer;
+}
+
+.opportunity-paragraphs{
+    width: 108%;
+    line-height: 1.155rem;
+}
+
+.opportunity-learn-more-link{
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+}
+
+.opportunity-learn-more-link > img {
+    padding-left: 1.155rem;
+    padding-top: 1px;
+}

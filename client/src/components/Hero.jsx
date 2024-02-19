@@ -10,7 +10,7 @@ const Hero = () => {
         <video src={HeroBannerVideo} className="w-100 h-75 hero-banner-video" autoPlay loop muted></video>
         <div className="container hero-banner">
             <div className="m-auto hero-text-box">
-                <div className="hero-heading w-75 m-auto">
+                <div className="hero-heading m-auto">
                     <div className="hero-heading-1">
                         Overcome Investment Barriers,
                     </div>
@@ -19,7 +19,7 @@ const Hero = () => {
                     </div>
 
                 </div>
-                <p className="hero-text m-2 p-2">
+                <p className="hero-text m-2 p-2 pt-5">
                     Dive into alternative markets with us and set your
                     <br />
                     capital on the path of &nbsp;
