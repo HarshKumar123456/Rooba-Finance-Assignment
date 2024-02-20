@@ -8,6 +8,7 @@ import WhyYouNeed from './components/WhyYouNeed';
 import HowToInvest from './components/HowToInvest';
 import AboutUs from './components/AboutUs';
 import OurPartners from './components/OurPartners';
+import ContactForm from './components/ContactForm';
 
 
 function App() {
@@ -21,7 +22,13 @@ function App() {
       <HowToInvest />
       <AboutUs />
       <OurPartners />
-      <h1 className="dim-white-text">This is App.</h1>
+      <ContactForm />
+      {/* <h1 className="p-5 white-background">This is App.</h1> */}
+      <div className="p-5 white-background"></div>
+      <div className="p-5 white-background"></div>
+      <div className="p-5 white-background"></div>
+      <div className="p-5 white-background"></div>
+      <div className="p-5 white-background"></div>
     </>
   )
 }
