@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import Logo from "../assets/images/Logo.png";
 
 import "../styles/NavBar.css";
+import SignUpForm from "./SignUpForm";
 
 const NavBar = () => {
+    const [signUpFormVisibility, setSignUpFormVisibility] = useState(false);
+
+    const handleSignInButtonClick = () => {
+        setSignUpFormVisibility(!signUpFormVisibility);
+    };
+
     return <>
         <div className="container pt-4 navbar-background-black">
 
@@ -33,9 +40,12 @@ const NavBar = () => {
                             About Us
                         </Link>
                     </li>
-                    <li className="nav-item btn btn-outline-light navbar-sign-in-btn">Sign In</li>
+                    <li className="nav-item btn btn-outline-light navbar-sign-in-btn" onClick={handleSignInButtonClick}>Sign In</li>
                 </ul>
             </header>
+            <div className="container dark-background" style={{display: `${signUpFormVisibility === true ? "block" : "none"}`}}>
+                <SignUpForm />
+            </div>
         </div>
 
     </>;

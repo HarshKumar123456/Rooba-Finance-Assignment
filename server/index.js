@@ -1,5 +1,6 @@
 import "dotenv/config";
 import express from "express";
+import cors from "cors";
 import connectDB from "./config/db.js";
 import logTheRoute from "./middlewares/logTheRoute.js";
 import usersRouter from "./routes/users.js";
@@ -12,6 +13,9 @@ connectDB();
 
 
 // Middlewares
+
+// For Cross Origin Resource Sharing
+app.use(cors());
 
 // To log the route details
 app.use(logTheRoute);
